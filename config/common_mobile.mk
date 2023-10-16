@@ -46,48 +46,6 @@ PRODUCT_PACKAGES += \
     lineage_charger_animation_vendor
 endif
 
-# Customizations
-PRODUCT_PACKAGES += \
-    IconPackCircularAndroidOverlay \
-    IconPackCircularSystemUIOverlay \
-    IconPackVictorAndroidOverlay \
-    IconPackVictorSystemUIOverlay \
-    IconPackSamAndroidOverlay \
-    IconPackSamSystemUIOverlay \
-    IconPackKaiAndroidOverlay \
-    IconPackKaiSystemUIOverlay \
-    IconPackFilledAndroidOverlay \
-    IconPackFilledSystemUIOverlay \
-    IconPackPUIAndroidOverlay \
-    IconPackPUISystemUIOverlay \
-    IconPackRoundedAndroidOverlay \
-    IconPackRoundedSystemUIOverlay \
-    IconPackNostalgicAndroidOverlay \
-    IconPackNostalgicSystemUIOverlay \
-    IconPackOOSAndroidOverlay \
-    IconPackOOSSystemUIOverlay \
-    IconPackOutlineAndroidOverlay \
-    IconPackOutlineSystemUIOverlay \
-    IconPackAcherusAndroidOverlay \
-    IconPackAcherusSystemUIOverlay \
-    IconPackAuroraAndroidOverlay \
-    IconPackAuroraSystemUIOverlay \
-    IconPackGradiconAndroidOverlay \
-    IconPackGradiconSystemUIOverlay \
-    IconPackLornAndroidOverlay \
-    IconPackLornSystemUIOverlay \
-    IconPackPlumpySystemUIOverlay \
-    IconPackPlumpyAndroidOverlay \
-    IconPackXperiaAndroidOverlay \
-    IconPackXperiaSystemUIOverlay \
-    IconShapePebbleOverlay \
-    IconShapeRoundedRectOverlay \
-    IconShapeSquareOverlay \
-    IconShapeSquircleOverlay \
-    IconShapeTaperedRectOverlay \
-    IconShapeTeardropOverlay \
-    IconShapeVesselOverlay
-
 # Legal
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.lineagelegal.url=https://lineageos.org/legal
@@ -115,6 +73,5 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    LineageBlackTheme \
     ThemePicker \
     ThemesStub

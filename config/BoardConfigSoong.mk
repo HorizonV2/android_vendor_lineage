@@ -19,6 +19,15 @@ SOONG_CONFIG_NAMESPACES += lineageVarsPlugin
 
 SOONG_CONFIG_lineageVarsPlugin :=
 
+# Camera
+ifneq ($(TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED),)
+    $(warning TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED is deprecated, please migrate to soong_config_set,camera,override_format_from_reserved)
+    $(call soong_config_set,camera,override_format_from_reserved,$(TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED))
+endif
+ifneq ($(TARGET_CAMERA_PACKAGE_NAME),)
+     $(call soong_config_set,camera,package_name,$(TARGET_CAMERA_PACKAGE_NAME))
+endif
+
 define addVar
   SOONG_CONFIG_lineageVarsPlugin += $(1)
   SOONG_CONFIG_lineageVarsPlugin_$(1) := $($1)

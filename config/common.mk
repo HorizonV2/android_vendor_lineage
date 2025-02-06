@@ -2,6 +2,7 @@
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product-if-exists, vendor/certification/config.mk)
 $(call inherit-product-if-exists, vendor/addons/config.mk)
+include vendor/lineage/audio/config.mk
 
 PRODUCT_BRAND ?= HorizonDroid
 

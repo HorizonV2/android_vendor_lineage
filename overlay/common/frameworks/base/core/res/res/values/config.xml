@@ -181,10 +181,13 @@
          value is left empty.  When this is non-empty then config_rawContactsLocalAccountName
          should also be non-empty.-->
     <string name="config_rawContactsLocalAccountType" translatable="false">com.android.contacts</string>
-
-    <!-- Name of the font family to use in the default lockscreen clock -->
-    <string name="config_clockFontFamily" translatable="false" />
     
     <!-- The amount to scale fullscreen snapshots for Overview and snapshot starting windows. -->
     <item name="config_highResTaskSnapshotScale" format="float" type="dimen">0.6</item>
+    
+    <string name="config_bodyFontFamily" translatable="false">Rookery-Regular</string>
+    <string name="config_bodyFontFamilyMedium" translatable="false">Rookery-Regular</string>
+    <string name="config_clockFontFamily" translatable="false">milky</string>
+    <string name="config_headlineFontFamily" translatable="false">Rookery-Regular</string>
+    <string name="config_headlineFontFamilyMedium" translatable="false">Rookery-Regular</string>
 </resources>

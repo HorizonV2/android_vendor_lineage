@@ -116,6 +116,9 @@ USE_DEX2OAT_DEBUG := false
 # Do not generate libartd.
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
+# Disable dex2oat debug
+USE_DEX2OAT_DEBUG := false
+
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 

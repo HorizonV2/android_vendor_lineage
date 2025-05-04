@@ -83,5 +83,16 @@ cat > "$JSON_FILE" <<EOF
 EOF
 
 echo "JSON saved to: $JSON_FILE"
+cat "$JSON_FILE"
+
+echo "=========================================="
+echo "         Welcome to the HorizonDroid      "
+echo "=========================================="
+echo "        BUILD COMPLETED SUCCESSFULLY      "
+echo "------------------------------------------"
+echo "Datetime : $DATETIME"
+echo "Size     : $(numfmt --to=iec $SIZE) ($SIZE bytes)"
+echo "Output   : $FILE_PATH"
+echo "=========================================="
 
 exit 0

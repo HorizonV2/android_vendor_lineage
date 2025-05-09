@@ -1,5 +1,5 @@
-HORIZON_REVISION := 5.2
-HORIZON_CODENAME := Supernova
+HORIZON_REVISION := 5.3
+HORIZON_CODENAME := Earth
 HORIZON_BUILD_DATE := $(shell date +"%d%m%Y")
 
 MAINTAINER_LIST = $(shell cat horizon-maintainers/maintainers.list)

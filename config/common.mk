@@ -192,6 +192,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     nano_recovery \
+    OmniStyle \
     OmniJaws 
 
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \

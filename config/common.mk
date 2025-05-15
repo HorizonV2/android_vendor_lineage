@@ -141,6 +141,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GameSpace
 
+# LMOFreeForm
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar
+
 # Lineage packages
 TARGET_INCLUDES_LOS_PREBUILTS ?= false
 ifeq ($(TARGET_INCLUDES_LOS_PREBUILTS),true)

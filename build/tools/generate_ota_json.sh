@@ -73,7 +73,7 @@ cat > "$JSON_FILE" <<EOF
             "md5": "$SUM",
             "buildtype": "$BUILDTYPE",
             "size": $SIZE,
-            "download": "https://www.pling.com/p/2259442/",
+            "download": "https://sourceforge.net/projects/horizondroid/",
             "version": "$VERSION",
             "support": "",
             "changelogs": ""

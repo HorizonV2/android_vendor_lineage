@@ -1,5 +1,5 @@
-HORIZON_REVISION := 5.3
-HORIZON_CODENAME := Earth
+HORIZON_REVISION := 5.4
+HORIZON_CODENAME := Hyperion
 HORIZON_BUILD_DATE := $(shell date +"%d%m%Y")
 
 MAINTAINER_LIST = $(shell cat horizon-maintainers/maintainers.list)
